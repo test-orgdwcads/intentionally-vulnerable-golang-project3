@@ -1,0 +1,3 @@
+aws.s3.aws_access_key_id=<some sttring>
+aws.s3.aws_secret_access_key=<some string>
+aws.s3.region=ap-northeast-1 - вместо стринг написать длинную абракадабру на латинице и с цифрами
