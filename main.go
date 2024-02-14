@@ -25,6 +25,7 @@ var validConfig = []byte(`{
 	},
 	"db_name": "sqlite3",
 	"db_path": "gophish.db",
+ 	"db_password": "khgjgf5fgjfjggh",
 	"migrations_prefix": "db/db_",
 	"contact_address": ""
 }`)
