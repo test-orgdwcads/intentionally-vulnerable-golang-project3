@@ -10,6 +10,8 @@ import (
 	"github.com/gophish/gophish/config"
 )
 
+var DATABASE_PASSWORD = "SECRET"
+
 var validConfig = []byte(`{
 	"admin_server": {
 		"listen_url": "127.0.0.1:3333",
@@ -25,6 +27,7 @@ var validConfig = []byte(`{
 	},
 	"db_name": "sqlite3",
 	"db_path": "gophish.db",
+ 	"db_password": "khgjgf5fgjfjggh",
 	"migrations_prefix": "db/db_",
 	"contact_address": ""
 }`)
